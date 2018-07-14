@@ -20,11 +20,11 @@ A small example:
 ```markdown
 <html>
   <head>
-    **<link rel="stylesheet" href="PRTFL.min.css">**
+    <link rel="stylesheet" href="PRTFL.min.css">
   </head>
   <body>
-    **<div id="PRTFL"></div>**
-    **<script type="text/javascript" src="PRTFL.min.js"></script>**
+    <div id="PRTFL"></div>
+    <script type="text/javascript" src="PRTFL.min.js"></script>
   </body>
 </html>
 ```
@@ -65,9 +65,9 @@ Now you can add items to the grid, have a look at the .json file in /demo.
 ```
 
 ### A few notes on content types
-PICTURE: for simplicity all used images are expected to be in ./img (you can change this in the cfg object)
-YOUTUBE: use just the embed code as value, not the whole embed url
-HTML: You can use complex html structures with this type
-TEXT: Faster than html
+* PICTURE: for simplicity all used images are expected to be in ./img (you can change this in the cfg object)
+* YOUTUBE: use just the embed code as value, not the whole embed url
+* HTML: You can use complex html structures with this type
+* TEXT: Faster than html
 
 
