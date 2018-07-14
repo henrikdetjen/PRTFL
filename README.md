@@ -1,41 +1,73 @@
 ﻿# PRTFL.js - Awesome Project Presentation
 
+PRTFL.js creates a simple, clickable item grid with a clickable details overlay out of a json description.
+
+PRTFL is built to easily integrate into any web project - no endless dependencies, just plain javascript and css.
+
+Have a look a the demonstration. 
+
+[Interactive Demonstration](http://ex-machina.it/uploads/PRTFL/)
+
 ![PRTFL Screenshot - Gallery](http://ex-machina.it/uploads/PRTFL/PRTFL.PNG)
 
-## Welcome to GitHub Pages
+## How To
 
-You can use the [editor on GitHub](https://github.com/henrikdetjen/portfoliojs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Just add the .js and the .css-file to your resources.
+Then, choose a root element (give the id "PRTFL").
+Ready.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+A small example:
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<html>
+  <head>
+    **<link rel="stylesheet" href="PRTFL.min.css">**
+  </head>
+  <body>
+    **<div id="PRTFL"></div>**
+    **<script type="text/javascript" src="PRTFL.min.js"></script>**
+  </body>
+</html>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Now you can add items to the grid, have a look at the .json file in /demo.
 
-### Jekyll Themes
+```markdown
+{
+  "items": 
+  [
+    {
+      "preview": 
+      {
+        "title": "Project A",	
+        "description": "a fancy project description",
+         "thumbnail": "thumbnail_1.png"
+      },
+      "details": 
+      {
+        "title": "Project A",
+        "content": 
+        [
+          {
+            "type": "PICTURE",
+            "value": ["a_picture.jpg"]
+          },
+          {
+             "type": "TEXT",
+             "value": "a single picture and a paragraph"
+          }
+        ]
+      },
+      "tags": ["A","B"],
+      "date": "ISODATE"
+    }
+  ]
+}
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/henrikdetjen/portfoliojs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### A few notes on content types
+PICTURE: for simplicity all used images are expected to be in ./img (you can change this in the cfg object)
+YOUTUBE: use just the embed code as value, not the whole embed url
+HTML: You can use complex html structures with this type
+TEXT: Faster than html
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
