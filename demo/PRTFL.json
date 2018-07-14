@@ -1,0 +1,150 @@
+{
+  "items": 
+  [
+    {
+		"preview": {
+			"title": "Project A",	
+			"description": "a fancy project description",
+			"thumbnail": "thumbnail_1.png"
+		},
+		"details": {
+			"title": "Project A",
+			"content": 
+			[
+				{
+					"type": "PICTURE",
+					"value": ["test_black.jpg"]
+				},
+				{
+					"type": "TEXT",
+					"value": "a single picture and a paragraph"
+				}
+			]
+		},
+		"tags": ["A","B"],
+		"date": "ISODATE"
+    },
+	{
+		"preview": {
+			"title": "Project B",	
+			"description": "another fancy project description",
+			"thumbnail": "thumbnail_2.jpeg"
+		},
+		"details": {
+			"title": "Project B",
+			"content": 
+			[
+				{
+					"type": "PICTURE",
+					"value": ["test_black.jpg", "test_white.jpg", "test_black.jpg", "test_white.jpg", "test_black.jpg", "test_white.jpg", "test_black.jpg", "test_white.jpg"]
+				},
+				{
+					"type": "TEXT",
+					"value": "a picture gallery and a paragraph"
+				}
+			]
+		},
+		"tags": ["A","B"],
+		"date": "ISODATE"
+    },
+	{
+		"preview": {
+			"title": "Project C",	
+			"description": "",
+			"thumbnail": "thumbnail_3.jpeg"
+		},
+		"details": {
+			"title": "Project C",
+			"content": 
+			[
+				{
+					"type": "YOUTUBE",
+					"value": "O-zpOMYRi0w"
+				},
+				{
+					"type": "TEXT",
+					"value": "a youtube video and a paragraph"
+				}
+			]
+		},
+		"tags": ["C"],
+		"date": "ISODATE"
+    },
+	{
+		"preview": {
+			"title": "Project D",	
+			"description": "",
+			"thumbnail": "thumbnail_4.jpeg"
+		},
+		"details": {
+			"title": "Project D",
+			"content": 
+			[
+				{
+					"type": "HTML",
+					"value": "<h2>This is HTML!</h2><h3>This is HTML!</h3><h4>This is HTML!</h4>"
+				}
+			]
+		},
+		"tags": ["C"],
+		"date": "ISODATE"
+    },
+	{
+		"preview": {
+			"title": "Project E",	
+			"description": "",
+			"thumbnail": "thumbnail_5.png"
+		},
+		"details": {
+			"title": "Project E - With a longer Title",
+			"content": 
+			[
+				{
+					"type": "TEXT",
+					"value": "content here"
+				}
+			]
+		},
+		"tags": ["C"],
+		"date": "ISODATE"
+    },
+	{
+		"preview": {
+			"title": "Project F",	
+			"description": "",
+			"thumbnail": "thumbnail_6.png"
+		},
+		"details": {
+			"title": "Project F",
+			"content": 
+			[
+				{
+					"type": "TEXT",
+					"value": "content here"
+				}
+			]
+		},
+		"tags": ["C"],
+		"date": "ISODATE"
+    },
+	{
+		"preview": {
+			"title": "Project G",	
+			"description": "no thumbnail image specified",
+			"thumbnail": ""
+		},
+		"details": {
+			"title": "Project G",
+			"content": 
+			[
+				{
+					"type": "TEXT",
+					"value": "content here"
+				}
+			]
+		},
+		"tags": ["C"],
+		"date": "ISODATE"
+    }
+  ]
+}
