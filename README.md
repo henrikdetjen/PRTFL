@@ -12,6 +12,16 @@ Have a look a the demonstration.
 
 ## How To
 
+download src 
+or 
+```markdown
+npm install prtfl 
+```
+or
+```markdown 
+yarn install prtfl
+```
+
 Just add the .js and the .css-file to your resources.
 Then, choose a root element (give the id "PRTFL").
 Ready.

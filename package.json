@@ -1,0 +1,12 @@
+{
+  "name": "prtfl",
+  "version": "1.0.0",
+  "description": "create a simple portfolio gallery with onclick overlay out of a json file",
+   "keywords": ["portfolio", "gallery", "json"],
+  "main": "src/PRTFL.js",
+  "homepage": "http://ex-machina.it/uploads/PRTFL/",
+  "repository": "https://github.com/henrikdetjen/PRTFL.git",
+  "files": ["src/*.js", "src/*.css"],
+  "author": "Henrik Detjen <henrik.detjen@ex-machina.it>",
+  "license": "MIT"
+}
